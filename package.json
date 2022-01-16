@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "foundation-sites": "^6.7.4"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  },
+  "name": "akannames",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

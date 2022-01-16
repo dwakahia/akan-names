@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Names</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+    <nav class="grid-container full">
+        <span>Akan Names</span>
+    </nav>
+    <div class="grid-container">
+
+        <div class="alert" id="alert">
+
+        </div>
+        <form>
+            <div class="grid-x grid-padding-y">
+                <div class="small-12 cell">
+                    <label>Date Of Birth
+                        <input type="date" id="userdob" placeholder=".medium-6.cell">
+                    </label>
+                </div>
+                <div class="small-12 cell">
+                    <fieldset class="large-5 cell">
+                        <legend>Gender</legend>
+                       <div id="genderSelect">
+                           <input type="radio" name="gender" value="male"><label>Male</label>
+                           <input type="radio" name="gender" value="female"><label>Female</label>
+                       </div>
+                    </fieldset>
+                </div>
+                <div class="small-12 cell">
+                    <button class="button primary" onclick="validateForm()">Generate Name</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer class="grid-container full">
+        &copy; 2021
+    </footer>
+</div>
+<script  src="index.js"></script>
+</body>
+</html>
